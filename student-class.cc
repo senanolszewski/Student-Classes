@@ -81,7 +81,7 @@ void Student::setScore(double newScore){
 }
 
 void Student::output(){
-    cout << getId() << endl << getName() << endl << getScore();
+    cout << "ID: " << getId() << endl << "Name: " << getName() << endl << "Score: " << getScore() << endl;
 }
 
 
